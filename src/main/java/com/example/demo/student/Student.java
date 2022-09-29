@@ -16,6 +16,7 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Table
 public class Student {
+
     @Id
     @SequenceGenerator(
             name = "student_sequence",
@@ -24,14 +25,18 @@ public class Student {
     )
     @GeneratedValue(
             generator = "student_sequence",
-            strategy = GenerationType.SEQUENCE)
+            strategy = GenerationType.SEQUENCE
+    )
     private Long id;
+
     @NotBlank
     @Column(nullable = false)
     private String name;
+
     @Email
     @Column(nullable = false, unique = true)
     private String email;
+
     @NotNull
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)

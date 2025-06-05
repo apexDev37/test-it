@@ -1,3 +1,25 @@
+# Test IT!
+
+[![status: archived](https://img.shields.io/badge/status-archived-red.svg)](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories)
+> ⚠ **Note:** This repository has been **archived** and is no longer maintained.
+```
+This project was created to practice my testing skills and get started with Test-Driven Development in Spring Boot back in 2022.
+It is no longer in active use, and there are no current or future plans to contribute to or develop this repository further.
+
+The code and history remain available for reference. Feel free to browse or fork, but please be aware that:
+- Issues and pull requests are disabled
+- No support or updates will be provided
+
+Thanks for your interest!
+```
+
+## Introduction
+This repository demonstrates the practice of testing skills to utilize Test-Driven Development and enhance design.
+This setup involves adding unit and integration tests (BDD style) to an existing Spring Boot application with no tests!
+
+**Note:** More details on the existing Spring Boot project are below.
+
+## Project 
 [![CICD](https://github.com/amigoscode/spring-boot-fullstack-professional/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/amigoscode/spring-boot-fullstack-professional/actions/workflows/deploy.yml)
 
 https://amigoscode.com/p/full-stack-spring-boot-react
